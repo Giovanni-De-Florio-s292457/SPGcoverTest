@@ -1,0 +1,62 @@
+.prodL{
+    width: 100%;
+    margin-top: -1%;
+}
+
+.addP{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 1030;
+    margin: 0 1.5rem 1.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ima{
+    width: 125px;
+    height: 125px;
+}
+
+.imaEdit{
+    width: 200px;
+    height: 200px;
+}
+
+
+.textP{
+    margin-top: 20%;
+}
+
+.buttonEdit{
+    margin-top: 20%;
+    margin-left: 40%;
+}
+
+.buttonConfirm{
+    margin-top: 20%;
+}
+
+.toConf{
+    color:red;
+    margin-top: 23%;
+}
+
+.Conf{
+    color:green;
+    margin-top: 23%;
+}
+
+.butSelling{
+    margin-left: 45%;
+}
+
+.rowDiv{
+    margin-top: 1%;
+}
+
+.closeSell{
+    margin-left: 45%;
+    width: 15%;
+}

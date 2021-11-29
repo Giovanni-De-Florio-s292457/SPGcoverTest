@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="C:\Users\Paolo\Desktop\SoftEng2\SolidarityPurchasingGroup\client\src\Components\NavBar\__test__\NavBar.test.js">
+        <testCase name="renders the NavBar when not logged in" duration="368"/>
+        <testCase name="renders the NavBar when logged in as manager" duration="236"/>
+        <testCase name="renders the NavBar when logged in as employee" duration="217"/>
+        <testCase name="renders the NavBar when logged in as client" duration="253"/>
+        <testCase name="renders the NavBar when logged in as farmer" duration="156"/>
+        <testCase name="renders the NavBar when logged in as deliverer" duration="135"/>
+    </file>
+</testExecutions>

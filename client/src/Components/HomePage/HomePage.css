@@ -1,0 +1,187 @@
+.container{
+    min-width: 100%;
+    height: 100%;
+    position: relative;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    margin-top: -1%;
+    background: #afcbd6;
+}
+.div.fade.in.modal {
+    display:flex !important;
+  }
+
+  .modal-dialog {
+    margin: auto;
+    margin-top: 20%;
+  }
+.footer{
+    background-color: #292929;   
+    height: 100px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.circle-1 {
+    width: 100%;
+    border-radius: 50%;
+    border: 10px solid #d6d6d6;
+    float: left;
+  }
+  
+  .circle-1 img {
+    width: 100%;
+    border-radius: 50%;
+    cursor:pointer;
+    transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+  }
+  .circle-1:hover img {
+   transform: scale(1.1);
+  -ms-transform: scale(1.1); 
+  -webkit-transform: scale(1.1);
+    box-shadow: 2px 2px 2px #4b4b4b;
+    
+  }
+.partSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    color: #afcbd6;
+    /* text-shadow: -4px 2px 0px #000; */
+}
+.partSection#shop
+{
+    align-items: flex-start !important;
+    text-align: left !important;
+    background: url('./slide1.jpg') no-repeat center center/
+    cover;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 71% 90%, 49% 93%, 27% 96%, 0 100%);
+}
+
+.partSection h1 {
+    font-size: 5rem;
+}
+
+.partSection h2 {
+    font-size: 4rem;
+}
+
+.partSection p {
+    font-size: 3rem;
+}
+
+.selection {
+    position: fixed;
+    z-index: 1;
+    margin-left: 1%;
+    right: 10px;border-radius: 25px;
+    overflow: hidden;
+    background: linear-gradient(
+120deg, #FF6071 0%, #FF7E8E 100%);
+
+    color: #fff;
+    padding: 10px 2px;
+    -webkit-box-shadow: 5px 0px 10px rgb(0 0 0 / 10%);
+    box-shadow: 5px 0px 10px rgb(0 0 0 / 10%);
+}
+
+.selection ul li{
+    list-style-type:none;
+  
+}
+.selection ul li a img {
+    width: 30px;
+    margin-top: 10px;
+}
+.selection ul {
+    padding: 5px !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+.selection ul li a{
+    color: white;
+    line-height: 20px;
+}
+.selection  button {
+    background-color: transparent;
+}
+
+.hero {
+    display: block;
+    box-sizing: border-box;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10%;
+    margin-top: -150px;
+    color: rgb(27, 27, 27);
+    width: 100%;
+    background-color: #afcbd6;
+    clip-path: ellipse(279% 100% at 194.27% 0%);
+    }
+    .partSection#category{
+        padding:0px !important;
+        color: rgb(26, 26, 26);
+    }
+
+.partSection#info {
+    /* background: url('./info.jpg') no-repeat center center/ */
+    /* cover; */
+    color: rgb(32, 32, 32)!important;
+}
+
+.partSection#candidate {
+    background: url('./join_us.jpg') no-repeat center center/
+    cover;
+    clip-path: polygon(0 13%, 100% 0%, 100% 85%, 71% 90%, 49% 93%, 27% 96%, 0 100%);
+
+}
+
+@media screen and (max-width: 1000px) {
+    .partSection h1 {
+    font-size: 4rem;
+  }
+
+  .partSection h2{
+      font-size: 3rem;
+  }
+
+  .partSection p {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+    .partSection h1 {
+    font-size: 3rem;
+  }
+
+  .partSection h2 {
+      font-size: 2rem;
+  }
+
+  .partSection p {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-height: 500px){
+}
+
+.toast-fixed {
+    position:fixed; 
+    top: 10%; 
+    left: 35%; 
+    width: 30%;
+    z-index:9999; 
+    border-radius:0px
+  }
