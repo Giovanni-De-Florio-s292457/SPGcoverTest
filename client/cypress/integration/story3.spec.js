@@ -5,7 +5,7 @@
 // check out the link below and learn how to write your first test:
 // https://on.cypress.io/writing-first-test
 
-
+const specTitle = require("cypress-sonarqube-reporter/specTitle");
 
 describe('Browse products in shop', () => {
     it('successfully loads', () => {
