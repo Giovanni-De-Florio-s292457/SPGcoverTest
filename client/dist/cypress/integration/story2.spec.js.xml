@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testExecutions version="1">
+  <file path="cypress/integration/story2.spec.js">
+    <testCase name="New customer registration - successfully loads" duration="6036"/>
+    <testCase name="New customer registration made by the shopper Employee - successfully loads" duration="6198"/>
+  </file>
+</testExecutions>

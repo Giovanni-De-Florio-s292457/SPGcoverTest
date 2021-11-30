@@ -28,7 +28,7 @@ describe(specTitle('New customer registration'), () => {
     })
 })
 
-describe('New customer registration made by the shopper Employee', () => {
+describe(specTitle('New customer registration made by the shopper Employee'), () => {
     it('successfully loads', () => {
         cy.visit('http://localhost:3000') // change URL to match your dev URL
         cy.contains('Login').click()
